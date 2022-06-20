@@ -1,0 +1,31 @@
+$background-body: #f0f1f7;
+$background-left: #dddddd;
+$button: #545871;
+$font-left-main: #707070;
+$font-purple: #7f1da5;
+$font-light-purple: #ad75c3;
+$font-grey-orange: #b8817d;
+$font-orangered: #e3756d;
+$nav-background: #f7eceb;
+
+@import "animate.css";
+
+@font-face {
+  font-family: "Henrietta Bold";
+  src: url("./assets/fonts/henriette/Henriette\ Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Henrietta Regular";
+  src: url("./assets/fonts/henriette/Henriette\ Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Fresh Honey";
+  src: url("./assets/fonts/fresh-honey/FreshHoney.otf") format("opentype");
+}
+
+input,
+textarea {
+  font-family: "Henrietta Bold";
+}
