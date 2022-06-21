@@ -1,7 +1,8 @@
-// import { Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import "./index.scss";
 import NavBar from "../NavBar";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 
 //functional component
 
@@ -11,9 +12,8 @@ const Layout = () => {
       <NavBar />
       <div className="page">
         <div className="row">
-          <div className="left col-4">
-            
-          </div>
+          <div className="left col-4" />
+          <Outlet />
           {/* <div className="right col-8"></div> */}
         </div>
       </div>

@@ -1,0 +1,48 @@
+@import "../../App.scss";
+
+.myhabits-page {
+  position: absolute;
+  text-align: center;
+  .habit-goals {
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: auto;
+    h1 {
+      font-size: 50px;
+      padding: 5rem;
+      font-family: "Henrietta Bold";
+      letter-spacing: 1px;
+      font-weight: 700;
+    }
+    .goals-list {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 2rem;
+      text-align: left;
+      font-family: "Fresh Honey";
+      h3 {
+        font-size: 30px;
+        color: $font-left-main;
+        letter-spacing: 2px;
+        font-weight: bold;
+      }
+      button {
+        width: 5rem;
+        margin-right: 2rem;
+        background: none;
+        border: none;
+        font-size: 20px;
+        color: $button;
+      }
+    }
+
+    a {
+      background-color: $button;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 30px;
+      font-size: large;
+      margin-top: 5rem;
+    }
+  }
+}

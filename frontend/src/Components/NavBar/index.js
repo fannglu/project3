@@ -32,7 +32,7 @@ const NavBar = () => {
           className="calendar-link"
           exact="true"
           activeclassname="active"
-          to="/project"
+          to="/myhabits"
         >
           <FontAwesomeIcon icon={faCalendar} color="#4d4d4e" />
         </NavLink>
@@ -41,7 +41,7 @@ const NavBar = () => {
           className="habit-link"
           exact="true"
           activeclassname="active"
-          to="/about"
+          to="/profile"
         >
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
